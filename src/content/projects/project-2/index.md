@@ -1,79 +1,69 @@
 ---
-title: "Astro Nano"
-description: "Minimal portfolio and blog build with astro and no frameworks."
-date: "Mar 26 2024"
-demoURL: "https://astro-nano-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-nano"
+title: "CyberRunner"
+description: "A fun and engaging platformer game built with Phaser.js."
+date: "2024/03/23"
+demoURL: "https://www.faisalmujawar148.github.io/CyberRunner/"
+repoURL: "https://github.com/faisalmujawar148/CyberRunner"
 ---
 
-![Astro Nano](/astro-nano.png)
+![CyberRunner](/game-screenshot.png)
 
-Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
+**CyberRunner** is a thrilling, minimalist, and lightning-fast platformer game developed with Phaser.js.
 
-Built with Astro, Tailwind and Typescript, an no frameworks.
+## 🚀 Demo
 
-It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
-
-## 🚀 Deploy your own
-
-<div class="flex gap-2">
-  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-nano">
-    <img src="/deploy_vercel.svg" />
-  </a>
-  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-nano">
-    <img src="/deploy_netlify.svg" />
-  </a>
-</div>
+Experience the game in action [here](https://www.faisalmujawar148.github.io/CyberRunner/)!
 
 ## 📋 Features
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
+- Beautiful multi-layered background
+- Smooth character animations
+- Collectible chips
+- Avoidable bombs
+- Score tracking
+- Game over and restart functionality
 
-## 💯 Lighthouse score
-![Astro Nano Lighthouse Score](/lighthouse.png)
+## 🛠️ Installation
 
-## 🕊️ Lightweight
-No frameworks or added bulk
+To play the game locally, follow these steps:
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/faisalmujawar148/CyberRunner.git
+    ```
+2. Open `index.html` in your preferred web browser.
 
-## 📄 Configuration
+## 🎮 How to Play
 
-The blog posts on the demo serve as the documentation and configuration.
+- Use the arrow keys to control Robotic Percival:
+  - **Left Arrow**: Move left
+  - **Right Arrow**: Move right
+  - **Up Arrow**: Jump
+  - **Down Arrow**: Dash (when moving)
+- Collect chips to increase your score.
+- Avoid bombs to prevent game over.
+- Press **Enter** to restart the game if you get a game over.
 
-## 💻 Commands
+## 📂 Assets
 
-All commands are run from the root of the project, from a terminal:
+- Background images and sprites are located in the `assets` directory.
+- The game features a custom sprite sheet for the main character, Robotic Percival.
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+## 🤝 Contributing
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts local dev server on local network         |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Preview build on local network                   |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+We welcome contributions! To improve the game, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
 
 ## 🏛️ License
 
-MIT
+This project is licensed under the MIT License.
+
+---
+
+Enjoy playing **CyberRunner!** and happy coding!

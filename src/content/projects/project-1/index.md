@@ -1,76 +1,102 @@
 ---
-title: "Astro Sphere"
-description: "Portfolio and blog build with astro."
-date: "Mar 18 2024"
-demoURL: "https://astro-sphere-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-sphere"
+title: "DataBolt Olympic Predictions"
+description: "For graphing Olympic data and predicting the performance of countries."
+date: "2024/07/11"
+demoURL: "https://faisalmujawar148.github.io/"
+repoURL: "https://github.com/meilioneil/Data_Bolt"
 ---
 
-![Astro Sphere Lighthouse Score](/astro-sphere.jpg)
+# Data Bolts - Codedex Hackathon 2024
+<img  src="/logo.png"  alt="Logo">
+For graphing Olympic data and predicting the performance of countries.
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+## Description
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+Data Bolt is a comprehensive tool designed to visualize Olympic data and predict future performance trends of various countries. By utilizing historical data and machine learning models, it generates insightful graphs and predictions, helping analysts and enthusiasts to understand and forecast Olympic outcomes.
 
-## 🚀 Deploy your own
+Website: https://faisalmujawar148.github.io/
 
-<div class="flex gap-2">
-  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere">
-    <img src="/deploy_vercel.svg" />
-  </a>
-  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-sphere">
-    <img src="/deploy_netlify.svg" />
-  </a>
-</div>
+Video of the Website: https://www.youtube.com/watch?v=FVRKd1MsQ9M
 
-## 📋 Features
+<img src="/graph.png" alt="graph">
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-- ✅ Searchable content (posts and projects)
 
-## 💯 Lighthouse score
-![Astro Sphere Lighthouse Score](/lighthouse.png)
+## Getting Started
 
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
+### Dependencies
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+* Python 3.6 or higher
+* pandas
+* numpy
+* seaborn
+* matplotlib
+* scikit-learn
 
-## 📄 Configuration
+To install the necessary Python libraries, you can use the following command:
+```sh
+pip install pandas numpy seaborn matplotlib scikit-learn
+```
 
-The blog posts on the demo serve as the documentation and configuration.
+### Installing
 
-## 💻 Commands
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/databolt.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd databolt
+    ```
+3. Ensure the data files are in the correct directory structure as expected by the scripts.
 
-All commands are run from the root of the project, from a terminal:
+### Executing program
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+1. Ensure the data files are in the following paths:
+    - `Data/Olympics/olympic_hosts.csv`
+    - `Data/Olympics/olympic_medals.csv`
+    - `Data/Olympics/olympic_results.csv`
+    - `Data/Olympics/olympic_athletes.csv`
+    - `Data/Olympics/Summer-Olympic-medals-1976-to-2008.csv`
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+2. Run the visualization script:
+    ```sh
+    python DataSetVisualier9000.py
+    ```
+
+3. Run the prediction script:
+    ```sh
+    python OlymPicsGenerator500.py
+    ```
+The first script (DataSetVisualiser9000) will generate a singular graph, which can be saved if wanted.
+The second script (OlymPicsGenerator500) will generate plots based on the provided data and save them to an output folder directory.
+
+## Help
+
+For common issues or further assistance, you can use the following command:
+```sh
+python -m pip help
+```
+Check if all required libraries are installed and the data paths are correct.
+
+## Authors
+
+Contributors names and contact info:
+- Faisal Mujawar [Linkedin](https://www.linkedin.com/in/faisal-mujawar/)
+- Mei Li Garcia O’Neil [Linkedin](https://www.linkedin.com/in/mei-li-oneil-a17b57229/)
+- Anthony Padilla [Linkedin](https://www.linkedin.com/in/anthony-padilla-9401a0247/)
+
 
 ## 🏛️ License
 
 MIT
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.:
+* [Olympic Data 1896-2022](https://www.kaggle.com/datasets/piterfm/olympic-games-medals-19862018)
+* [Summer Olympics Medals (1976-2008)](https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals)
+* [Stefanie Molin](https://github.com/stefmolin)
+
+
+
+
