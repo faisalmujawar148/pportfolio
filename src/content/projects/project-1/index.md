@@ -14,11 +14,15 @@ For graphing Olympic data and predicting the performance of countries.
 
 Data Bolt is a comprehensive tool designed to visualize Olympic data and predict future performance trends of various countries. By utilizing historical data and machine learning models, it generates insightful graphs and predictions, helping analysts and enthusiasts to understand and forecast Olympic outcomes.
 
-Website: https://faisalmujawar148.github.io/
+Website: https://faisalmujawar148.github.io/ <br>
+<a href="https://faisalmujawar148.github.io/"> <img src="/graph.png" alt="graph"> </a>
 
-Video of the Website: https://www.youtube.com/watch?v=FVRKd1MsQ9M
 
-<img src="/graph.png" alt="graph">
+
+Video of the Website:
+<br> <iframe width="560" height="315" src="https://www.youtube.com/embed/FVRKd1MsQ9M?si=9whTBGUKTx30MIEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
 
 ## Getting Started

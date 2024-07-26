@@ -141,7 +141,7 @@ const { title, description, image = "/nano.png" } = Astro.props;
     });
   }
 
-function toggleTheme(dark) {
+  function toggleTheme(dark) {
     const css = document.createElement("style");
 
     css.appendChild(
@@ -165,17 +165,26 @@ function toggleTheme(dark) {
       document.documentElement.classList.remove("dark");
     }
 
-  window.getComputedStyle(css).opacity;
+    window.getComputedStyle(css).opacity;
     document.head.removeChild(css);
   }
 
   function preloadTheme() {
     const userTheme = localStorage.theme;
 
-    if (userTheme === "light" || userTheme === "dark") {
-      toggleTheme(userTheme === "dark");
+    if (userTheme === "light") {
+      document.getElementById('light-theme-button').classList.add('hidden');
+      document.getElementById('dark-theme-button').classList.remove('hidden');
+      toggleTheme(false);
+    } else if (userTheme === "dark") {
+      document.getElementById('dark-theme-button').classList.add('hidden');
+      document.getElementById('light-theme-button').classList.remove('hidden');
+      toggleTheme(true);
     } else {
-      toggleTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.getElementById('light-theme-button').classList.toggle('hidden', prefersDark);
+      document.getElementById('dark-theme-button').classList.toggle('hidden', !prefersDark);
+      toggleTheme(prefersDark);
     }
   }
 
