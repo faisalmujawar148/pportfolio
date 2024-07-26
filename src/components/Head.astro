@@ -85,12 +85,16 @@ const { title, description, image = "/nano.png" } = Astro.props;
     const lightThemeButton = document.getElementById("light-theme-button");
     lightThemeButton?.addEventListener("click", () => {
       localStorage.setItem("theme", "light");
+      document.getElementById('light-theme-button').classList.add('hidden');
+      document.getElementById('dark-theme-button').classList.remove('hidden');
       toggleTheme(false);
     });
 
     const darkThemeButton = document.getElementById("dark-theme-button");
     darkThemeButton?.addEventListener("click", () => {
       localStorage.setItem("theme", "dark");
+      document.getElementById('dark-theme-button').classList.add('hidden');
+      document.getElementById('light-theme-button').classList.remove('hidden');
       toggleTheme(true);
     });
 
