@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 import vercel from "@astrojs/vercel/serverless";
 
 export default defineConfig({
+  integrations: [mdx(), sitemap(), tailwind()],
   output: 'server',
   adapter: vercel(),
-  integrations: [mdx(), sitemap(), tailwind()],
 });
