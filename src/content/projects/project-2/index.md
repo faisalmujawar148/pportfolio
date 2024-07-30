@@ -6,7 +6,7 @@ demoURL: "https://www.faisalmujawar148.github.io/CyberRunner/"
 repoURL: "https://github.com/faisalmujawar148/CyberRunner"
 ---
 
-![CyberRunner](/game-screenshot.png)
+![CyberRunner](./game-screenshot.png)
 
 **CyberRunner** is a thrilling, minimalist, and lightning-fast platformer game developed with Phaser.js.
 

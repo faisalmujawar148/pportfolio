@@ -7,7 +7,7 @@ repoURL: "https://github.com/faisalmujawar148/TrustWorks"
 ---
 
 # myTrustWorks - HeadStarter Hackathon 2024
-<img src="/logo.png" alt="Logo">
+ ![Logo](./logo.png)
 A platform designed to surpass Fiverr and UpWork in the freelance and gig economy space.
 
 ## Description
@@ -15,11 +15,13 @@ A platform designed to surpass Fiverr and UpWork in the freelance and gig econom
 myTrustWorks is a cutting-edge platform aimed at revolutionizing the freelance and gig economy industry. With a focus on superior user experience, enhanced capabilities, and robust security measures, myTrustWorks is set to become the go-to choice for freelancers and clients alike.
 
 Website: [myTrustWorks](https://www.mytrustworks.xyz/)  
-<a href="https://www.mytrustworks.xyz/"> <img src="/homepage.png" alt="homepage"> </a>
+<a href="https://www.mytrustworks.xyz/"> <img src="homepage.png" alt="homepage"> </a>
+
+![[myTrustWorks](https://www.mytrustworks.xyz)](./homepage.png)
 
 ## Demo
 
-Check out a video demo of our website:
+Check out a video demo of the website:
 <style>
   .video-container {
     position: relative;
@@ -42,42 +44,13 @@ Check out a video demo of our website:
 
 <div class="video-container">
   <iframe 
-    src="https://www.youtube.com/watch?v=UO0tNQDZomk" 
+    src="https://www.youtube.com/embed/UO0tNQDZomk?si=e4IOwTxMCB8fxJZN" 
     title="YouTube video player" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     referrerpolicy="strict-origin-when-cross-origin" 
     allowfullscreen>
   </iframe>
 </div>
-
-## Getting Started
-
-### Dependencies
-
-To install the necessary dependencies, use the following command:
-```sh
-npm install
-```
-
-### Installing
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/faisalmujawar148/TrustWorks.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd TrustWorks
-    ```
-3. Ensure your environment variables are set up correctly for database connections and API keys.
-
-### Executing Program
-
-1. Start:
-    ```sh
-    npm run dev
-    ```
-
 
 
 

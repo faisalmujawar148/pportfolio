@@ -7,7 +7,7 @@ repoURL: "https://github.com/meilioneil/Data_Bolt"
 ---
 
 # Data Bolts - Codedex Hackathon 2024
-<img  src="/logo.png"  alt="Logo">
+<img  src="./logo.png"  alt="Logo">
 For graphing Olympic data and predicting the performance of countries.
 
 ## Description
@@ -15,7 +15,7 @@ For graphing Olympic data and predicting the performance of countries.
 Data Bolt is a comprehensive tool designed to visualize Olympic data and predict future performance trends of various countries. By utilizing historical data and machine learning models, it generates insightful graphs and predictions, helping analysts and enthusiasts to understand and forecast Olympic outcomes.
 
 Website: https://faisalmujawar148.github.io/ <br>
-<a href="https://faisalmujawar148.github.io/"> <img src="/graph.png" alt="graph"> </a>
+<a href="https://faisalmujawar148.github.io/"> <img src="./graph.png" alt="graph"> </a>
 
 
 
