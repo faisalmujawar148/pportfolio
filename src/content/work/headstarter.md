@@ -2,7 +2,7 @@
 company: "HeadStarter Software Fellow"
 role: "Software Fellow"
 dateStart: "22 July 2024"
-dateEnd: "Current"
+dateEnd: "9 September 2024"
 ---
 
 - Engaged in a structured program that emphasizes community and real-human feedback.
